@@ -17,13 +17,13 @@
             <h1>The Library</h1>
         </div>
 
-        <button>Add Book</button>
+        <button class="add-book">Add Book</button>
     </header>
 
         <div class="book-box">
             <div class="book">
                 <p class="top-text">Title: <span class="title">Naruto</span></p>
-                <p>Artist: <span class="aurthor">Unknown</span></p>
+                <p>Artist: <span class="artist">Unknown</span></p>
                 <p>Pages: <span class="pages">500</span></p>
                 <div class="btn">
                     <button class="read-status">Read</button>
@@ -33,7 +33,7 @@
             </div>
             <div class="book">
                 <p class="top-text">Title: <span class="title">Demon Slayer</span></p>
-                <p>Artist: <span class="aurthor">Unknown</span></p>
+                <p>Artist: <span class="artist">Unknown</span></p>
                 <p>Pages: <span class="pages">300</span></p>
                 <div class="btn">
                     <button class="read-status">Read</button>
@@ -42,7 +42,7 @@
             </div>
             <div class="book">
                 <p class="top-text">Title: <span class="title">One Punch Man</span></p>
-                <p>Artist: <span class="aurthor">Unknown</span></p>
+                <p>Artist: <span class="artist">Unknown</span></p>
                 <p>Pages: <span class="pages">10</span></p>
                 <div class="btn">
                     <button class="read-status">Read</button>
@@ -60,17 +60,17 @@
                 <form id="formBook">
                     <div>
                         <label for="title">Title:</label>
-                        <input type="text" id="title">
+                        <input type="text" id="title" required>
                     </div>
 
                     <div>
                         <label for="artist">Artist:</label>
-                        <input type="text" id="artist">
+                        <input type="text" id="artist" required>
                     </div>
 
                     <div>
                         <label for="pages">Pages:</label>
-                        <input type="number" min="0" max="100" id="pages">
+                        <input type="number" min="0" max="100" id="pages" required> 
                     </div>
 
                     <div>
