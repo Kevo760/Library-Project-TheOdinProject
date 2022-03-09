@@ -1,6 +1,6 @@
 html {
     font-family: 'Roboto', sans-serif;
-    background-color: hsl(211, 100%, 95%)
+    background-color: hsl(0, 0%, 85%);
     ;
 }
 
@@ -49,6 +49,8 @@ header button:active {
     background-color: hsl(210, 100%, 56%);
 }
 
+
+
 /* =================================== HEADER SECTION ======================== */
 
 /* =================================== BOOK BOX SECTION ======================== */
@@ -94,7 +96,6 @@ p {
 }
 
 .read-status {
-    background-color: hsl(147, 50%, 47%);
     color: white;
     border: none;
     padding: .5rem;
@@ -210,3 +211,12 @@ input[type="number"] {
 
 
 /* =================================== MODAL SECTION ======================== */
+
+/* ############################ MOBILE ####################################### */
+@media (max-width: 510px) {
+    .book-box {
+        justify-content: center;
+    }
+}
+
+/* ############################ MOBILE ####################################### */
