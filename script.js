@@ -144,6 +144,7 @@ function addBookStyle(a) {
     const removeBtn = document.createElement('button');
     removeBtn.classList.add('remove');
     removeBtn.innerHTML = "Remove";
+    
     // Function that attaches the deleteBook on click
     btnDiv.appendChild(removeBtn);
     removeBtn.addEventListener('click', function(){
