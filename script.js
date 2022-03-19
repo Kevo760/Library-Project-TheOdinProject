@@ -3,22 +3,25 @@
 let myLibary = [];
 
 // Book class
-function Book(title, artist, pages) {
-this.title = title;
-this.artist = artist;
-this.pages = pages;
-this.read = false;
+class Book {
+    constructor(title, artist, pages) {
+        this.title = title;
+        this.artist = artist;
+        this.pages = pages;
+        this.read = false;
+    }
+
+    // Changes this to book read when triggered
+    haveRead = () => {
+        this.read = true;
+    }
+
+    // Changes this to book NOT read when triggered
+    notRead = () => {
+        this.read = false;
+    }
 };
 
-// Puts read to true
-Book.prototype.haveRead = function() {
-    this.read = true;
-};
-
-// put read to false
-Book.prototype.notRead = function() {
-    this.read = false;
-};
 
 
 
